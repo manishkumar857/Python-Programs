@@ -24,7 +24,7 @@ print("for temp in C ",tempINc)
 
 print("twinkle twinkle little star\n\thow i wonder what you are\n\t\tup above the world so high\nlike a diamond in the sky")'''
 
-"""x=int(input("enter a number"))
+x=int(input("enter a number"))
 if(x<0):
     print("number is negative")
 else:
@@ -32,7 +32,7 @@ else:
         print("number is even")
     else:
         print("number is odd")
-print("program ended successfully")"""
+print("program ended successfully")
 
 
 x=int(input("enter 1st "))
