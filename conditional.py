@@ -69,9 +69,26 @@ elif((y>x and y<z) or (y>z and y<x)):
 else:
     print(z,"is middle number")'''
 
-age = int(input("enter age : "))
+'''age = int(input("enter age : "))
 if(age>=18):
     print("eligble to vote")
 else:
     eli = 18-age
-    print("not eligible to vote can vote in ",eli," years")
+    print("not eligible to vote can vote in ",eli," years")'''
+
+
+score = int(input("enter your score "))
+
+if(score>100 or score<0):
+    print("invalid it should be postive and less than 100")
+elif(89<score<100):
+    print("your grade is A")
+elif(79<score<90):
+    print("your grade is B")
+elif(69<score<80):
+    print("your grade is C")
+elif(59<score<70):
+    print("your grade is D")
+else:{
+    print("your Grade is F")
+}
