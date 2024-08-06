@@ -29,4 +29,11 @@ print("twinkle twinkle little star\n\thow i wonder what you are\n\t\tup above th
 
 
 
-  
+bill = int(input("enter amount "))
+
+if(bill>1000):
+    discount=bill/10
+    bill = bill-discount
+    print("final bill amount is ",bill," with a discount of ",discount)
+else:
+    print("final bill is ",bill)
