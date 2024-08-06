@@ -2,14 +2,16 @@
 if(x<0):
     print("number is negative")
 else:
-    if(x%2==0):  
+    if(x%2==0 and x!=0):  
         print("number is even")
+    elif(x==0):
+        print("number is zero")
     else:
         print("number is odd")
-print("program ended successfully")
+print("program ended successfully")'''
 
 
-x=int(input("enter 1st "))
+'''x=int(input("enter 1st "))
 y=int(input("enter 2nd "))
 z=int(input("enter 3rd   "))
 
@@ -22,7 +24,7 @@ else:
 
 #if will works for ALL non zero value
 
-if(1):
+'''if(1):
     print("sucessfull")
 else:
     print("unsucessfull")
@@ -42,4 +44,15 @@ x=None
 if(x):
     print("sucess")
 else:
-    print("unsucess")
+    print("unsucessfull")'''
+
+x = int(input("Enter 1st number:"))
+y = int(input("Enter 2nd number:"))
+z = int(input("Enter 3rd number:"))
+
+if(x>y and x>z):
+    print(x,"is greatest")
+elif(y>x and y>z):
+    print(y,"is greatest")
+elif(z>y and z>y):
+    print(z,"is greatest")
