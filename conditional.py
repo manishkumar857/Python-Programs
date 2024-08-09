@@ -81,13 +81,13 @@ score = int(input("enter your score "))
 
 if(score>100 or score<0):
     print("invalid it should be postive and less than 100")
-elif(89<score<100):
+elif(89<score and score<100):
     print("your grade is A")
-elif(79<score<90):
+elif(79<score and score<90):
     print("your grade is B")
-elif(69<score<80):
+elif(69<score and score<80):
     print("your grade is C")
-elif(59<score<70):
+elif(59<score and score<70):
     print("your grade is D")
 else:{
     print("your Grade is F")
