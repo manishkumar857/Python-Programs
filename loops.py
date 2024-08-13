@@ -49,10 +49,19 @@ print(sum," is the sum")'''
 
 
 #reverse of a number
-a1=int(input("enter the number"))
+'''a1=int(input("enter the number"))
 new=0
 while(a1>0):
     r=a1%10
     new=new*10+r
     a1=a1//10
-print(new)
+print(new)'''
+
+#factorial
+a1=int(input("enter the number"))
+fact=1
+i=1
+while(i<=a1):
+    fact=fact*i
+    i=i+1
+print(fact)
