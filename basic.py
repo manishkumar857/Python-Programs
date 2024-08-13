@@ -53,7 +53,5 @@ print(n1,n2,n3)
 
 n4=9j
 n5=True
-n6=1
 print(type(n4))
 print(type(n5))
-print(type(n6))
