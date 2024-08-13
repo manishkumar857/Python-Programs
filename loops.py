@@ -58,10 +58,26 @@ while(a1>0):
 print(new)'''
 
 #factorial
-a1=int(input("enter the number"))
+'''a1=int(input("enter the number"))
 fact=1
 i=1
 while(i<=a1):
     fact=fact*i
     i=i+1
-print(fact)
+print(fact)'''
+
+
+#sumof neg and postive number
+n=1
+sump=0
+sumn=0
+while n!=0:
+    n=int(input("enter your number"))
+    if(n>0):
+        sump=sump+n
+    else:
+        sumn=sumn+n
+print(sump,"is sum of p number")
+print(sumn, "is sum of neg number")
+
+
