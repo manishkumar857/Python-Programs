@@ -20,7 +20,7 @@ while(a1<=a2):
 print("\nend of code")'''
 
 #prime number 
-a1=int(input("enter the number"))
+'''a1=int(input("enter the number"))
 
 if(a1==0 or a1==1):
     print("it's not a prime number")
@@ -35,5 +35,14 @@ else:
     if(k==0):
         print("prime")
     else:
-        print("not prime")
+        print("not prime")'''
 
+
+#sum of digit
+a1=int(input("enter the number"))
+sum=0
+while(a1>0):
+    r=a1%10
+    sum=sum+r
+    a1=a1/10
+print(sum," is the sum")
