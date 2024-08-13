@@ -39,10 +39,20 @@ else:
 
 
 #sum of digit
-a1=int(input("enter the number"))
+'''a1=int(input("enter the number"))
 sum=0
 while(a1>0):
     r=a1%10
     sum=sum+r
-    a1=a1/10
-print(sum," is the sum")
+    a1=a1//10 
+print(sum," is the sum")'''
+
+
+#reverse of a number
+a1=int(input("enter the number"))
+new=0
+while(a1>0):
+    r=a1%10
+    new=new*10+r
+    a1=a1//10
+print(new)
