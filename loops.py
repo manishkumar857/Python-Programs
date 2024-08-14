@@ -68,7 +68,7 @@ print(fact)'''
 
 
 #sumof neg and postive number
-n=1
+'''n=1
 sump=0
 sumn=0
 while n!=0:
@@ -78,6 +78,6 @@ while n!=0:
     else:
         sumn=sumn+n
 print(sump,"is sum of p number")
-print(sumn, "is sum of neg number")
+print(sumn, "is sum of neg number")'''
 
 
