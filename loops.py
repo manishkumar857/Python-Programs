@@ -79,5 +79,5 @@ while n!=0:
         sumn=sumn+n
 print(sump,"is sum of p number")
 print(sumn, "is sum of neg number")
-
+'''
 
