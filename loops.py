@@ -81,3 +81,19 @@ print(sump,"is sum of p number")
 print(sumn, "is sum of neg number")
 '''
 
+'''start=1
+while(start<=10):
+    if(start==5):
+        pass
+    else:
+        print(start)
+    start=start+1'''
+
+start=1
+while(start<=10):
+    if(start==5):
+        #continue
+        break
+    else:
+        print(start)
+    start=start+1
