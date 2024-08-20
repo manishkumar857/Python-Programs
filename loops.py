@@ -89,11 +89,15 @@ while(start<=10):
         print(start)
     start=start+1'''
 
-start=1
+'''start=1
 while(start<=10):
     if(start==5):
-        #continue
-        break
+        continue
+        #break
     else:
         print(start)
-    start=start+1
+    start=start+1'''
+
+start=1
+for start in range(1,11,2):
+    print(start)
