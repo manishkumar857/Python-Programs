@@ -57,7 +57,7 @@ while(a1>0):
     a1=a1//10
 print(new)'''
 
-#factorial
+#factorial of a number 
 '''a1=int(input("enter the number"))
 fact=1
 i=1
