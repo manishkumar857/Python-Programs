@@ -28,3 +28,13 @@ elif(num2>num1 and num2>num3):
     print(num2,"is greater") 
 elif(num3>num1 and num3>num2):
     print(num3, "is greater")'''
+
+
+nums=input("enter numbers for addition (seperated by comma)")
+print(nums)
+temp=nums.split(",")
+print(temp)
+sm=0
+for i in temp:
+    sm=sm+1
+print(sm)
