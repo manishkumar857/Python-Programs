@@ -103,8 +103,13 @@ for start in range(1,11,2):
     print(start)
 #skipping the two values'''
 
-start=1
+'''start=1
 for start in range(10,0,-1):
     print(start)
 
-#decrement
+#decrement'''
+
+lst=[10,20,30,40,50]
+
+for start in lst:
+    print(start)
