@@ -23,6 +23,5 @@ while(True):
         elif(y==1):
             continue
     
-    
             
         
