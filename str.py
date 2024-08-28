@@ -34,3 +34,9 @@ str ="welcome to the world of programming "
 a = str[3:7]
 print(a)
 
+randomstr ="this is python class"
+print(type(randomstr))
+
+print(randomstr[0])
+print(randomstr[-1])
+
