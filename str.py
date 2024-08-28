@@ -39,4 +39,5 @@ print(type(randomstr))
 
 print(randomstr[0])
 print(randomstr[-1])
+print(randomstr[::-1])
 
