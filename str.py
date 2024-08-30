@@ -30,7 +30,7 @@ for i in range(x):
 
 #slicing 
 
-str ="welcome to the world of programming "
+'''str ="welcome to the world of programming "
 a = str[3:7]
 print(a)
 
@@ -39,5 +39,9 @@ print(type(randomstr))
 
 print(randomstr[0])
 print(randomstr[-1])
-print(randomstr[::-1])
+#reverse
+print(randomstr[::-1])'''
 
+#random = 'this is python "3.0" '
+random = "this is python \"3.0\""
+print(random)
