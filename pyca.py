@@ -48,4 +48,16 @@ elif(cost>10000):
     cost = cost - discount5
     print("final price to be paid : ",cost)
 
+#other question
+
     
+'''salamount = int(input("enter the sales amount : "))
+commission=0
+if(salamount>1000):
+    commission=salamount/10
+    print(commission)
+elif(salamount<=1000 and salamount>500):
+    commission=salamount/5
+    print(commission)
+elif(salamount>=500):
+    print("no commission")'''

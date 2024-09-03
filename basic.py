@@ -38,7 +38,7 @@ if(bill>1000):
 else:
     print("final bill is ",bill)'''
 
-num =100
+'''num =100
 num2='100'
 num3=100.9
 print(type(num))
@@ -54,4 +54,7 @@ print(n1,n2,n3)
 n4=9j
 n5=True
 print(type(n4))
-print(type(n5))
+print(type(n5))'''
+
+n2=2**4 #i will give 2 raise to power 4
+print(n2)
