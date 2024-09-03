@@ -58,3 +58,9 @@ print(type(n5))'''
 
 n2=2**4 #i will give 2 raise to power 4
 print(n2)
+
+x = 4.5
+
+# floor division : Round x down to the nearest integer
+rounded_down = x // 1
+print(rounded_down)  # Output: 4
