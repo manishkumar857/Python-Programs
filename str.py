@@ -65,3 +65,15 @@ if(resp==1):
 else:
     print("not found")
 
+valwords  = input("enter your phone number")
+if(valwords.isdigit()): #check if inputs is of digit only
+    print("valid input")
+else:
+    print("invalid input")
+
+valword  = input("enter your phone number")
+if(valword.isalnum()): #check if inputs is of digit and alpha
+    print("valid input")
+else:
+    print("invalid input")
+
