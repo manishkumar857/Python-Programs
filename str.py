@@ -43,7 +43,7 @@ print(randomstr[-1])
 print(randomstr[::-1])'''
 
 #random = 'this is python "3.0" '
-random = " tHIS this is python \"3.0\""
+'''random = " tHIS this is python \"3.0\""
 print(random)
 
 print(random.upper()) #uppercase string
@@ -52,5 +52,16 @@ print(random.lower()) #lowercase string
 randoms = " THIS this is python \"3.0\""
 print(randoms.capitalize())
 print(randoms.title())
-property(randoms.strip()) #to remove the space from leading and trailing parts
+property(randoms.strip()) #to remove the space from leading and trailing parts'''
+
+#find any words in any string
+randomstr = "this is python"
+findword = input("enter the word you want to find in string")
+resp = randomstr.find(findword)
+print(resp)
+
+if(resp==1):
+    print("word found")
+else:
+    print("not found")
 
