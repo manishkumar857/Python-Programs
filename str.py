@@ -55,7 +55,7 @@ print(randoms.title())
 property(randoms.strip()) #to remove the space from leading and trailing parts'''
 
 #find any words in any string
-randomstr = "this is python"
+'''randomstr = "this is python"
 findword = input("enter the word you want to find in string")
 resp = randomstr.find(findword)
 print(resp)
@@ -75,5 +75,14 @@ valword  = input("enter your phone number")
 if(valword.isalnum()): #check if inputs is of digit and alpha
     print("valid input")
 else:
+    print("invalid input")'''
+
+valword1  = input("enter ")
+if(valword1.isalpha()): #check if inputs is  alpha
+    print("valid input")
+else:
     print("invalid input")
 
+
+tr={65:64} #ascii value of i/p : ascii value of o/p
+print(valword1.translate(tr))
