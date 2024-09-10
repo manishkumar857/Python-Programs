@@ -31,7 +31,7 @@
 # print(ls)
 
 
-n =int(input("enter the no of elements till you want to print"))
+n =int(input("enter the no of elements till you want to print "))
 i=0
 x=0
 ls1 =[]
@@ -40,5 +40,7 @@ while(x<=n):
     ls1.append(x)
     i=i+1
     x=i**3   
+print(ls1)
+ls1.reverse()
 print(ls1)
 
