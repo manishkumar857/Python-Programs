@@ -31,7 +31,7 @@
 # print(ls)
 
 
-# n =int(input("enter the no of elements till you want to print "))
+# n =int(input("enter the no of elements till you want to print (cubes should be less than n)"))
 # i=0
 # x=0
 # ls1 =[]
@@ -44,23 +44,45 @@
 # ls1.reverse()
 # print(ls1)
 
+#short way
+# n=20
+# cubes=[i**3 for i in range(n)]
+# print(cubes)
 
-ls2=[]
 
-n =int(input("enter the number of elements you want to enter : "))
-i=0
-sum=0
-print("enter the elements :")
-while(i<n):
-    x=int(input())
-    ls2.append(x)
-    sum = sum + ls2[i]
-    i=i+1
-print(ls2)
+# ls2=[]
+
+# n =int(input("enter the number of elements you want to enter : "))
+# i=0
+# sum=0
+# print("enter the elements :")
+# while(i<n):
+#     x=int(input())
+#     ls2.append(x)
+#     sum = sum + ls2[i]
+#     i=i+1
+# print(ls2)
    
-average = sum/n
-print("sum of elements is ",sum)
-print("average of elements is ",average)
+# average = sum/n
+# print("sum of elements is ",sum)
+# print("average of elements is ",average)
+
+
+
+#search
+ls3=[2,3,4,5,2]
+s=int(input("enter the element you want to search : "))
+count=i=0
+
+while(i<5):
+    if(ls3[i]==s):
+        count=count+1
+        print("found at index : ",i)
+    i=i+1
+print("count is ",count)
+
+
+
 
 
 
