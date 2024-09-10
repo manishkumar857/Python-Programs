@@ -1,4 +1,4 @@
-# ls = [2,2,4,5,5,6] # list are mutable , it allows duplicates values
+# ls = [2,2,4,5,5,6] # list are mutable , it allows duplicates values , can contain d/f datatypes
 # print(ls)
 
 # ls.append(2) #can add only one argument
@@ -14,7 +14,18 @@
 
 #slicing in list
 ls=[6,7,8,9,3]
+print(ls[0])
 print(ls[::1])#[start:end:stride(space in between])
 print(ls[1::1])
 print(ls[::2])
 print(ls[::-1])
+
+print(ls)
+print(ls.pop(0)) #   pop() remove last element ,pop(inex value) remove index value
+print(ls)
+
+print(ls.remove(9)) # element name in ()
+print(ls)
+
+del ls[0:3]
+print(ls)
