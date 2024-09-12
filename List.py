@@ -70,20 +70,27 @@
 
 
 #search
-ls3=[2,3,4,5,2]
-s=int(input("enter the element you want to search : "))
-count=i=0
+# ls3=[2,3,4,5,2]
+# s=int(input("enter the element you want to search : "))
+# count=i=0
 
-while(i<5):
-    if(ls3[i]==s):
-        count=count+1
-        print("found at index : ",i)
-    i=i+1
-print("count is ",count)
-
-
+# while(i<5):
+#     if(ls3[i]==s):
+#         count=count+1
+#         print("found at index : ",i)
+#     i=i+1
+# print("count is ",count)
 
 
+#sorting a list
+CAmarks = [10,20,30,25,19,20]
+print(CAmarks)
+CAmarks.sort()
+print(CAmarks)
+CAmarks.sort(reverse=True)
+print(CAmarks)
 
 
 
+CAmarks2 = CAmarks.copy()
+print(CAmarks2)
