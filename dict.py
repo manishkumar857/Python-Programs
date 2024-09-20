@@ -13,5 +13,12 @@ for key1 in dict1:
     #print(key1)
     print(key1,":",dict1[key1])
 
-for values in dict1.values():
+for values in dict1.values(): #accesing key values only with .values()
    print(values)
+
+#square values from 0 to 10:
+sq_value={}
+for i in range(1,11):
+    sq_value[i]=i**2
+print(sq_value)
+
