@@ -20,34 +20,3 @@ import random
 # #unpacking in tuple
 # tuplex = (2,2,5)
 # a,b,c=tuplex
-# print(c)
-
-# print(tuplex.count(2)) #checking the number of times 2 in the tuple
-
-
-# tuple1 = (3,2,34,49,30)
-# mylist = list(tuple1)
-# mylist.remove(34)
-# tuple1 = tuple(mylist)
-# print(tuple1)
-
-
-# tuplenew = (39,89)
-# a,b=tuplenew
-# def gdj(t,y):
-#     print("sum is ",a+b)
-#     print("sub is ",a-b)
-#     print("product  is ",a*b)
-
-# gdj(a,b)
-i=0
-
-j = int(input("enter the number of elements you want to enter in tuple : "))
-
-while(i<=j):
-    a = random.randint(-100,100)
-    tuple = ()
-    tuple = tuple + (a,)
-    i=i+1
-
-    print(tuple)
