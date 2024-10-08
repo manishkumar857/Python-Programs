@@ -26,8 +26,12 @@ camarks.update(["new1","new2"])
 print(camarks)
 
 
-
-
+camarks.discard("new")
+camarks.remove("new1")
+print(camarks)
+camarks.discard("new")
+#camarks.remove("new1") #it will show error if element not present (not in case of discard this happens)
+#camarks(print)
 
 # camarks1={'A',10,"B+",5.8,True}
 # print(camarks1)
