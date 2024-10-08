@@ -5,6 +5,19 @@
 # print(type(camarks))
 # #unodered , unchangeable and  not allow duplicates
 
+# camarks1={'A',10,"B+",5.8,True}
+# print(camarks1)
+# #print(camarks1[0]) can't access sets like by index
+# print(type(camarks1))
+
+
+# # idx = int(input("enter the number "))
+# # camarks[0]=4 #they are unordered we can't change it 
+# # print(camarks) 
+
+# # camarks1.append(4)
+# # print(camarks1)
+
 # Days=set(["a","b","c","d"])
 # print(Days)
 
@@ -33,26 +46,17 @@ camarks.discard("new")
 #camarks.remove("new1") #it will show error if element not present (not in case of discard this happens)
 #camarks(print)
 
-# camarks1={'A',10,"B+",5.8,True}
-# print(camarks1)
-# #print(camarks1[0]) can't access sets like by index
-# print(type(camarks1))
 
-# # idx = int(input("enter the number "))
-# # camarks[0]=4 #they are unordered we can't change it 
-# # print(camarks) 
 
-# # camarks1.append(4)
-# # print(camarks1)
-
-# camarks1.add(7)
-# print(camarks1)
-# camarks1.pop()
-# print(camarks1)
-# camarks1.remove(7)
-# print(camarks1)
-# # camarks1.clear()
-# # print(camarks1)
+camarks1={'A',10,"B+",5.8,True}
+camarks1.add(7)
+print(camarks1)
+camarks1.pop()
+print(camarks1)
+camarks1.remove(7)
+print(camarks1)
+camarks1.clear()
+print(camarks1)
 
 # ca = {1,1,1,1,2}
 # print(ca) #not allow duplicates
