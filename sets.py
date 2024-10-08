@@ -1,7 +1,16 @@
 camarks = {10,20,30,25,19,29}
-print(camarks)
+#print(camarks)
+for i in camarks:
+    print(i)
 print(type(camarks))
 #unodered , unchangeable and  not allow duplicates
+
+Days=set(["a","b","c","d"])
+print(Days)
+
+
+
+
 
 camarks={'A','O','B','E'}
 print(camarks)
