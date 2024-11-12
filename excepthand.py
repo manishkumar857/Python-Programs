@@ -32,27 +32,52 @@
 
 
 #user defined exception handling
+# class Error(Exception):
+#     pass
+# class ValueTooSmallError(Error):
+#     pass
+# class ValueTooLargeError(Error):
+#     pass
+
+
+
+# number=10
+# while True:
+#     try:
+#         i_num=int(input("enter the number"))
+#         if i_num<number:
+#             raise ValueTooSmallError
+#         elif i_num>number:
+#             raise ValueTooLargeError
+#         break
+#     except ValueTooSmallError:
+#         print("value too small")
+#     except ValueTooLargeError:
+#         print("values too large")
+# print("you guessed it correctly")
+
+
+
+
 class Error(Exception):
     pass
-class ValueTooSmallError(Error):
-    pass
-class ValueTooLargeError(Error):
+class NegativeNumber(Error):
     pass
 
 
 
-number=10
 while True:
     try:
-        i_num=int(input("enter the number"))
-        if i_num<number:
-            raise ValueTooSmallError
-        elif i_num>number:
-            raise ValueTooLargeError
-        break
-    except ValueTooSmallError:
-        print("value too small")
-    except ValueTooLargeError:
-        print("values too large")
-print("you guessed it correctly")
-
+        number=int(input("enter the number"))
+        
+        if number<0:
+            raise NegativeNumber
+    
+            break
+        elif number>0:
+            break
+    except NegativeNumber:
+        print("value is negative")
+        
+    
+print("value is positive")
