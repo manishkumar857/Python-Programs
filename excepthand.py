@@ -13,8 +13,11 @@ try:
     x=int(input("enter number :"))
     y=input("enter text : ")
     print(x+y)
-except TypeError:
-    print("type error")
+except (TypeError,ValueError):
+    print("error")
+finally:
+    print("end of code")
+
 
 
 # try:
