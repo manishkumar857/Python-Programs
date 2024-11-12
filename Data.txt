@@ -1,0 +1,4 @@
+phy
+chem
+maths
+computerscience
