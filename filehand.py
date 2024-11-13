@@ -46,7 +46,7 @@
 
 
 #how to check file is there or not if not there create a new file and take input and print
-import os
+#import os
 
 # filename = input("Enter your file name: ") #in input have to give file location
 # if os.path.exists(filename):
@@ -67,7 +67,7 @@ import os
 
 
 #how to delete a file
-nameoffile=input("enter file name you want to delete : ")
+#nameoffile=input("enter file name you want to delete : ")
 # if os.path.exists(nameoffile):
 #     os.remove(nameoffile)
 # else:
@@ -81,15 +81,32 @@ nameoffile=input("enter file name you want to delete : ")
 # else:
 #     print("file does not exist!")
 
-if os.path.exists(nameoffile):
-    myfile=open(nameoffile,"r")
-    print("current location: ",myfile.tell())
-    print(myfile.read())
+# if os.path.exists(nameoffile):
+#     myfile=open(nameoffile,"r")
+#     print("current location: ",myfile.tell())
+#     print(myfile.read())
 
-    print(myfile.seek(5))
-    print("current location: ",myfile.tell())
-    print(myfile.read())
-    myfile.close()
-else:
-    print("file does not exist!")
+#     print(myfile.seek(5))
+#     print("current location: ",myfile.tell())
+#     print(myfile.read())
+#     myfile.close()
+# else:
+#     print("file does not exist!")
+
+
+
+import csv
+students=[
+    {"John",85},
+    {"Jane",92},
+    {"Tom",75}
+
+]
+
+with open('hello.csv',mode='w',newline='')as file:
+    writer = csv.writer(file)
+    writer.writerow(students)
+
+print("Multiple pairs of arguments written to csv successfully")
+file.close()
 
