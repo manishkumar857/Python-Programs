@@ -95,18 +95,31 @@
 
 
 
-import csv
-students=[
-    {"John",85},
-    {"Jane",92},
-    {"Tom",75}
+# import csv
+# students=[
+#     {"John",85},
+#     {"Jane",92},
+#     {"Tom",75}
 
-]
+# ]
 
-with open('hello.csv',mode='w',newline='')as file:
-    writer = csv.writer(file)
-    writer.writerow(students)
+# with open('hello.csv',mode='w',newline='')as file:
+#     writer = csv.writer(file)
+#     writer.writerow(students)
 
-print("Multiple pairs of arguments written to csv successfully")
-file.close()
+# print("Multiple pairs of arguments written to csv successfully")
+# file.close()
+#incomplete code of csv
 
+
+# try:
+#     num1=int(input("enter first number "))
+#     num2=int(input("enter second number "))
+#     print("sum of  {} and {} is {}".format(num1,num2,num1+num2))
+# except Exception as msg:
+#     print("something went wrong ! please check below")
+#     print(msg)
+
+
+print(10+'10')
+print(10/0)
